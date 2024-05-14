@@ -1,0 +1,61 @@
+.home {
+    --bd-teal: #18d6b0; 
+    --bd-sea-green: #3fffab;
+    --bd-light-blue: #00ccff;
+    --bd-orange: #ffaa00;
+    --bd-teal-rgb: 24,214,176; 
+    --bd-sea-green-rgb: 63,255,171;
+    --bd-light-blue-rgb: 0,204,255; 
+    --bd-orange-rgb: 255,170,0;
+
+    .bd-masthead {
+        padding: 3rem 0;
+        background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bd-light-blue-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-orange-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-teal-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-sea-green-rgb), 0.5), transparent 50%);
+    }
+
+    .btn-bd-primary {
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-teal);
+        --bs-btn-border-color: var(--bd-teal);
+        --bs-btn-border-radius: .5rem;
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: var(--bd-sea-green);
+        --bs-btn-hover-border-color: var(--bd-sea-green);
+        --bs-btn-focus-shadow-rgb: var(--bd-sea-green-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: var(--bd-light-blue);
+        --bs-btn-active-border-color: var(--bd-light-blue);
+    }
+}
+
+.navbar {
+    @extend .navbar-dark;
+
+    padding: .75rem 0;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(var(--bd-teal-rgb), 1), rgba(var(--bd-teal-rgb), 0.95));
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.text-teal {
+    color: var(--bd-teal);
+}
+
+.list {
+    .card {
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+
+.navbar-brand {
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: rotate(-2deg) scale(1.1);
+    }
+}
