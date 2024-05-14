@@ -1,14 +1,14 @@
 ---
-title: "FitnessFriend App Overview 🏋️‍♂️🍎"
-description: "Discover the features and benefits of using the FitnessFriend app."
+title: "VideoInsights Overview 🎥📚"
+description: "Discover the features and benefits of using the VideoInsights Chrome extension."
 draft: false
-tags: ["Featured", Fitness", "Wellness", "Technology"]
-images: ["fitnessfriend-og.jpg"]
-keywords: ["fitness app", "personalized training", "nutrition advice", "AI coaching", "wellness education"]
+tags: ["Featured", "Education", "Technology", "Learning"]
+images: ["videoinsights-og.jpg"]
+keywords: ["video insights", "educational videos", "personalized learning", "AI integration", "video bookmarking"]
 aliases:
-  - fitness/our-app
+  - education/our-extension
 ---
 
-# FitnessFriend App Overview
+# VideoInsights Overview
 
-FitnessFriend is designed to revolutionize your health and fitness journey. By leveraging state-of-the-art AI technology, FitnessFriend offers personalized fitness and nutrition plans, real-time workout feedback, and a comprehensive library of wellness resources. Explore the app's capabilities and get ready to achieve your best self.
+VideoInsights is designed to revolutionize your learning experience. By leveraging state-of-the-art AI technology, VideoInsights offers curated video results, personalized learning recommendations, and a seamless integration with your web browsing. Explore the extension's capabilities and get ready to enhance your knowledge efficiently.
